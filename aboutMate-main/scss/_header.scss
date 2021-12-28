@@ -1,0 +1,23 @@
+nav {
+    font-family: "Shippori Antique B1", sans-serif;
+    font-size: large;
+  }
+  .navbar-brand {
+    font-size: large;
+    margin-left: 50px;
+  }
+
+.portada {  
+  max-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.primeraSeccion {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    }
+

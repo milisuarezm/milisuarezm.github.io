@@ -1,0 +1,48 @@
+@media only screen and (min-width:0px) and (max-width: 1000px){
+
+  footer{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:static;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+  }
+  aside {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+    .pasos {
+      display: flex;
+      flex-direction: column;
+      position:static;
+      width: 100%;
+      height: 100%;
+      font-size: small;
+      text-align: center;
+    
+  }    
+  .fotosIndex {
+      @extend section ;
+      position: relative;
+      align-content:center;
+
+    }
+  }
+  .asideVideos { 
+    overflow: hidden;
+    position:relative;
+    width: 100%;
+  }
+
+  .form-control {
+  max-width: 90%;
+  }

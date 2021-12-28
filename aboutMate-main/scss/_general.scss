@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.portada {
+  max-height: 100%;
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+}
+
+.links a {
+  color: $color-verde;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.asideVideos {
+    display: flex;
+    padding: 20px;
+  }
+
+  @mixin grid-center-width {
+    display: grid;
+    align-items: center;
+    width: 100%;
+  }
+
+  .fotosIndex {
+    @include grid-center-width;
+  }
+  .parallax {
+    background-image: url("/photos/mate.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .submit {
+    width: 100px;
+    margin: 50px 50px;
+    color: $black;
+  }
+
+  .form-control {
+    width: 500px;
+  }

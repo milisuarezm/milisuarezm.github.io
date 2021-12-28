@@ -1,0 +1,23 @@
+footer {
+    background-color: #cde5d7;
+    background-image: linear-gradient(to bottom, #a7cab3, #b0d6ae);
+    color: black;
+    margin-top: 250px;
+    padding: 0px;
+    display: grid;
+    grid-template-areas: "a a ."
+                         "b b ." ;
+    justify-content: center;
+    & img {
+      height: 30px;
+      width: 30px;
+      margin-left: $diezpixeles;
+      display: grid;
+    }
+  }
+
+  .imagenInsta
+  .imagenFace { 
+    margin-top: 20px;
+    width: 20px;
+  }
